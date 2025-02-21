@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c9df94d3-8d26-436d-952c-cd2a7782fd8d" name="labor2022">
+        <fileTransfer rootFolder="/home/yahya" accessType="SFTP" host="10.115.2.22" port="22" sshConfigId="7d8938f0-0ade-4f51-b99e-de0cb693bbdb" sshConfig="yahya@10.115.2.22:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

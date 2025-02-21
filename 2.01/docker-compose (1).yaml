@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    volumes:
+      - ./data:/var/lib/grafana
+    ports:
+      - 8030:3000
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=GeMein!
+
+volumes:
+  data:
